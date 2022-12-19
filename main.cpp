@@ -5,6 +5,7 @@ int main()
 {
     using namespace std;
     deque <int> A;
+    deque <int>::const_iterator cIter;
 
 //push добавления элемента в конец
     A.push_back(1);
